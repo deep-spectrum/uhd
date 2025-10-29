@@ -321,7 +321,7 @@ set(UHD_BOOST_REQUIRED_COMPONENTS
     filesystem
     program_options
     serialization
-    #system Boost.System is used, but explicitly listing it causes errors on some systems.
+    system # Boost.System is used, but explicitly listing it causes errors on some systems. Not listing causes errors in other systems you idiots...
     thread
     unit_test_framework
 )
