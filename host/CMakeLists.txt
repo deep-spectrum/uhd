@@ -12,6 +12,8 @@ if(POLICY CMP0048)
   cmake_policy(SET CMP0048 NEW) # Suppress Version warnings
 endif(POLICY CMP0048)
 
+set(CMAKE_CXX_FLAGS "-fPIC")
+
 ########################################################################
 # Select cmake build type
 # Use release build type by default to get optimization flags
